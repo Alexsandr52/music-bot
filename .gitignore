@@ -1,0 +1,44 @@
+# Environment variables (секреты)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Логи
+logs/
+*.log
+
+# Музыкальные файлы
+tracks/*.mp3
+tracks/*.m4a
+tracks/*.wav
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Docker
+.dockerignore
+
+# Temporary files
+*.tmp
+temp/
