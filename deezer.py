@@ -70,3 +70,8 @@ def format_track_message(track, index):
         f"🎵 *{index}. {track['artist']} — {track['title']}*\n"
         f"⏱ {duration_min}:{duration_sec:02d}\n"
     )
+
+
+def get_track_unique_key(track):
+    """Генерирует уникальный ключ для трека на основе артиста и названия."""
+    return f"{track['artist'].lower()}_{track['title'].lower()}".replace(' ', '_')
